@@ -1,0 +1,66 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+  margin: auto;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+nav {
+  width: 960px;
+  height: 64px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  margin-right: 24px;
+}
+
+.menu ul li {
+  margin-left: 16px;
+}
+
+nav .logo {
+  margin-left: 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.mainbanner {
+  display: flex;
+  width: 960px;
+  border: 1px solid black;
+}
+
+.mainbanner .image {
+  width: 60%;
+  border: 1px solid black;
+}
+
+.mainbanner img {
+  padding: 32px 24px;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.learnmore {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  border: 1px solid black;
+}
+
+.learnmore h1 {
+  font-size: 32px;
+}
