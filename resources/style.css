@@ -8,6 +8,11 @@ html {
   box-sizing: inherit;
 }
 
+header {
+  width: 100%;
+  margin: auto;
+}
+
 nav {
   width: 960px;
   height: 64px;
@@ -17,10 +22,18 @@ nav {
   justify-content: space-between;
 }
 
+.logo p {
+  font-size: 25px;
+}
+
 .menu ul {
   display: flex;
   align-items: center;
   margin-right: 24px;
+}
+
+.logo img {
+  height: 45px;
 }
 
 .menu ul li {
